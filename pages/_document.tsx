@@ -4,21 +4,23 @@ export default function Document () {
   return (
     <Html>
       <Head>
-        <title>FoxCoin</title>
-        <meta name="title" content="FoxCoin"/>
-        <meta name="description" content="Fox Coin is a dapp created for ethereum 101 course of cadena.dev"/>
+        {/* <title>AstralFuel</title> */}
+        <meta name="title" content="AstralFuel"/>
+        <meta name="description" content="AstralFuel is a new meme with big dreams"/>
 
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://foxcoin.vercel.app/"/>
-        <meta property="og:title" content="FoxCoin"/>
-        <meta property="og:description" content="Fox Coin is a dapp created for ethereum 101 course of cadena.dev"/>
-        <meta property="og:image" content="https://foxcoin.vercel.app/assets/LandingPage.png"/>
+        <meta property="og:url" content="https://astralfueltoken.io"/>
+        <meta property="og:title" content="AstralFuel"/>
+        <meta property="og:description" content="AstralFuel is a new meme with big dreams"/>
+        <meta property="og:image" content="https://astralfueltoken.io/assets/social.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://foxcoin.vercel.app/"/>
-        <meta property="twitter:title" content="FoxCoin"/>
-        <meta property="twitter:description" content="Fox Coin is a dapp created for ethereum 101 course of cadena.dev"/>
-        <meta property="twitter:image" content="https://foxcoin.vercel.app/assets/LandingPage.png"/>
+        <meta property="twitter:url" content="astralfueltoken.io"/>
+        <meta property="twitter:title" content="AstralFuel"/>
+        <meta property="twitter:description" content="AstralFuel is a new meme with big dreams"/>
+        <meta property="twitter:image" content="https://astralfueltoken.io/assets/social.png"/>
+        
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
         <Main />

@@ -33,15 +33,15 @@ function MyApp ({ Component, pageProps }: AppProps) {
         supportedChainIds={supportedChainIds}
         chainAddConfig={addNetowrkMetadata}
       >
-        <Toaster
+        {/* <Toaster
           position='bottom-center'
           toastOptions={{ duration: 3000 }}
-        />
+        /> */}
         <PageLayout>
           <Component {...pageProps} />
         </PageLayout>
       </ThirdwebWeb3Provider>
-      <ReactQueryDevtools initialIsOpen={false} />
+      {/* <ReactQueryDevtools initialIsOpen={false} /> */}
     </QueryClientProvider>
   )
 }

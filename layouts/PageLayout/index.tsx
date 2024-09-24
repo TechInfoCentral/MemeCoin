@@ -27,25 +27,17 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => {
               <Logo />
             </CustomLink>
           </div>
-          <div className="flex items-center gap-4 xs:hidden">
-            <Wallet />
+
+          {/* Telegram Icon Link */}
+          <div className="ml-auto">
+            <a href="https://t.me/astralfueltoken" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/images/telegram.svg"
+                alt="Telegram"
+                className="h-10 w-10"
+              />
+            </a>
           </div>
-          <Popup
-            open={isOpen}
-            onClose={closeModal}
-            trigger={
-              <button className="hidden xs:flex">
-                <HiMenu color="gray" size={24} />
-              </button>
-            }
-            modal
-            overlayStyle={{ marginTop: "60px", backgroundColor: "rgba(23,23,23,0.95)" }} >
-            <div className="flex flex-col w-screen h-screen gap-8 place-content-center">
-              <div className="flex justify-center gap-8">
-                <Wallet />
-              </div>
-            </div>
-          </Popup>
         </header>
         <main className="flex flex-col grow">
           {children}
