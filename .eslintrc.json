@@ -1,35 +1,35 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "standard",
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
-    "rules": {
-        "semi": "off",
-        "@typescript-eslint/semi": ["error", "never"],
-        "indent": "off",
-        "@typescript-eslint/indent": ["error", 2],
-        "quotes": "off",
-        "@typescript-eslint/quotes": ["error", "double"],
-        "react/react-in-jsx-scope": "off",
-        "@typescript-eslint/no-explicit-any": ["off"]
-    }
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": "off", // Disabling standard 'semi' rule
+    "@typescript-eslint/semi": ["error", "never"], // Ensure no semicolons are used
+    "indent": "off", // Disable standard 'indent' rule
+    "@typescript-eslint/indent": ["error", 2], // Indentation must be 2 spaces
+    "quotes": "off", // Disable standard 'quotes' rule
+    "@typescript-eslint/quotes": ["error", "double"], // Use double quotes
+    "react/react-in-jsx-scope": "off", // No need to import React in scope for Next.js
+    "@typescript-eslint/no-explicit-any": "off" // Allow usage of 'any'
+  }
 }
