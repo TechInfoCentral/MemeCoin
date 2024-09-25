@@ -2,10 +2,10 @@ import "styles/globals.css"
 import type { AppProps } from "next/app"
 import { PageLayout } from "layouts/PageLayout"
 import { ThirdwebWeb3Provider } from "@3rdweb/hooks"
-import { Toaster } from "react-hot-toast"
+// import { Toaster } from "react-hot-toast"
 import { CHAIN_ID } from "config"
 import { QueryClient, QueryClientProvider } from "react-query"
-import { ReactQueryDevtools } from "react-query/devtools"
+// import { ReactQueryDevtools } from "react-query/devtools"
 import { addNetowrkMetadata } from "utils/constants"
 
 const queryClient = new QueryClient({

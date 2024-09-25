@@ -7,11 +7,11 @@ import Image from "next/image"
 // import { AiOutlineLoading3Quarters } from "react-icons/ai"
 
 const Home: NextPage = () => {
-  const { claimAirdropMutation, isClaimed } = useAirdrop()
+  // const { claimAirdropMutation, isClaimed } = useAirdrop()
 
-  const handleClaimAirdrop = async () => {
-    claimAirdropMutation.mutate()
-  }
+  // const handleClaimAirdrop = async () => {
+  //   claimAirdropMutation.mutate()
+  // }
 
   return (
     <>
