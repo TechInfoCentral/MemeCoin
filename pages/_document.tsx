@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document"
 
-export default function Document() { // Added space before parentheses
+export default function Document () { // Added space before parentheses
   return (
     <Html>
       <Head>
@@ -28,4 +28,4 @@ export default function Document() { // Added space before parentheses
       </body>
     </Html>
   )
-} // Removed extra semicolon
+} // Removed extra semicolon and ensured no trailing spaces
