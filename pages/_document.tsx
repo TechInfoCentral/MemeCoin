@@ -19,7 +19,7 @@ export default function Document () {
         <meta property="twitter:title" content="AstralFuel" />
         <meta property="twitter:description" content="AstralFuel is a new meme with big dreams" />
         <meta property="twitter:image" content="https://astralfueltoken.io/assets/social.png" />
-        
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
